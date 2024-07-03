@@ -1,5 +1,5 @@
 :root {
-    --branco-principal: #bf11ff;
+    --branco-principal: #bb01ff;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #939393;
     --cor-de-fundo: #00030C;
@@ -11,7 +11,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
